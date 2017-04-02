@@ -1,0 +1,62 @@
+- alias: "Wakey wakey"
+  trigger:
+    platform: time
+    after: '22:45:00'
+  action:
+    service: media_player.play_media
+    data:
+      entity_id: media_player.common
+      media_content_id: 3
+      media_content_type: PLAYLIST
+      volume_level: 0.1
+
+- alias: "Volume incr 1"
+  trigger:
+    platform: time
+    after: '22:46:00'
+  action:
+    service: media_player.volume_set
+    data:
+      entity_id: media_player.common
+      volume_level: 0.2
+
+- alias: "Volume incr 2"
+  trigger:
+    platform: time
+    after: '22:47:00'
+  action:
+    service: media_player.volume_set
+    data:
+      entity_id: media_player.common
+      volume_level: 0.3
+
+- alias: "Volume incr 3"
+  trigger:
+    platform: time
+    after: '22:48:00'
+  action:
+    service: media_player.volume_set
+    data:
+      entity_id: media_player.common
+      volume_level: 0.4
+
+- alias: "Volume incr 4"
+  trigger:
+    platform: time
+    after: '22:48:00'
+  action:
+    service: media_player.volume_set
+    data:
+      entity_id: media_player.common
+      volume_level: 0.4
+
+- alias: "Volume incr 5"
+  trigger:
+    platform: time
+    after: '22:49:00'
+  action:
+    service: media_player.volume_set
+    data:
+      entity_id: media_player.common
+      volume_level: 0
+
