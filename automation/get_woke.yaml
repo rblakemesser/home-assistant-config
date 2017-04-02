@@ -1,19 +1,18 @@
 - alias: "Wakey wakey"
   trigger:
     platform: time
-    after: '22:45:00'
+    after: '22:59:00'
   action:
     service: media_player.play_media
     data:
       entity_id: media_player.common
       media_content_id: 3
       media_content_type: PLAYLIST
-      volume_level: 0.1
 
 - alias: "Volume incr 1"
   trigger:
     platform: time
-    after: '22:46:00'
+    after: '22:59:00'
   action:
     service: media_player.volume_set
     data:

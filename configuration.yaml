@@ -12,39 +12,21 @@ homeassistant:
   time_zone: America/Chicago
 
 logger:
-
-# Show links to resources in log and frontend
 introduction:
-
-# Enables the frontend
 frontend:
-
-# Enables configuration UI
 config:
+updater:
+discovery:
+conversation:
+history:
+logbook:
+sun:
 
 http:
   # Uncomment this to add a password (recommended!)
   # api_password: PASSWORD
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
-
-# Checks for available updates
-updater:
-
-# Discover some devices automatically
-discovery:
-
-# Allows you to issue voice commands from the frontend in enabled browsers
-conversation:
-
-# Enables support for tracking state changes over time.
-history:
-
-# View all events in a logbook
-logbook:
-
-# Track the sun
-sun:
 
 # Weather Prediction
 sensor 1:
