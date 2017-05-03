@@ -42,29 +42,9 @@ light:
 tts:
   platform: google
 
-media_player:
-    platform: soundtouch
-    host: 192.168.1.119
-    port: 8090
-    name: common
-
 group: !include groups.yaml
 automation: !include_dir_merge_list automation/
 
-scene:
-  - name: blendra normal
-    entities:
-        light.blendra:
-            state: on
-            transition: 2
-            brightness: 255
-            xy_color: [ 0.4448, 0.4066 ]
-  - name: blendra dim
-    entities:
-        light.blendra:
-            state: on
-            transition: 2
-            brightness: 100
-            xy_color: [ 0.5926, 0.3814 ]
-
+zwave:
+    usb_path: /dev/ttyACM0
 
