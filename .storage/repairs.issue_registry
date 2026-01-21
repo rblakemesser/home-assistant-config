@@ -19,15 +19,8 @@
         "issue_id": "august.markdown_august"
       },
       {
-        "created": "2026-01-20T16:12:01.094713+00:00",
-        "dismissed_version": "2026.1.2",
-        "domain": "sonos",
-        "is_persistent": false,
-        "issue_id": "subscriptions_failed"
-      },
-      {
         "created": "2026-01-21T03:50:45.347397+00:00",
-        "dismissed_version": null,
+        "dismissed_version": "2026.1.2",
         "domain": "backup",
         "is_persistent": true,
         "issue_id": "automatic_backup_failed",
