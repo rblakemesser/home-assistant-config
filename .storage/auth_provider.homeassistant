@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "blake",
+        "password": "JDJiJDEyJGRTektBUGlqMXJIZjA3aG8wSXh5dnVtSWpVQzZ0eW5mblkxR1hmODV4TlBrYy5VM2RzUGJt"
+      },
+      {
+        "username": "kendra",
+        "password": "JDJiJDEyJEJVUXBYdTVFZkFLTGxiRlNPeHl3eGVLNEh0Q2xQZTNhcS5oLmFVeFRFRkJseW5qZ0pDOFpp"
+      },
+      {
+        "username": "craigo",
+        "password": "JDJiJDEyJEY0SUF6Z0tTQlJ5SEVmb1MwM3NIaHVEOW5uV05OeTdKY1VtcUJFeUFSTVNFN0F3MGJab2dh"
+      },
+      {
+        "username": "rodger",
+        "password": "JDJiJDEyJEFOY0U3QU1idjV3NXoxOHR4cldZY3VhOVZ6czRQeVgwaDBFS0MvNXM3d0xHSzZzUU11MUpp"
+      },
+      {
+        "username": "rodgermesser",
+        "password": "JDJiJDEyJDhpVWprS25Xb3VjRklMR0piWVZJVHVtZi9JWlpFeEEzMjVobDRJM0FDbjc0WkRLUlphaWNp"
+      },
+      {
+        "username": "mila",
+        "password": "JDJiJDEyJDhFRGZkNGlSNURSRnByS0pxeUlzYmU4eXdxZ1B0Tmk4SlZzTDVQUGUyblRLRmx4NDMuT2N1"
+      },
+      {
+        "username": "yaya",
+        "password": "JDJiJDEyJGpiT21Kak9HdG0yQlpnM2I1TXRaQ09DRmFqU2t4SnZVOEg4VzdvdFR0eG9oWm1ybFk1aS9L"
+      },
+      {
+        "username": "agos",
+        "password": "JDJiJDEyJC9IMGUyMElMVDBlbmZlUGpTR2lOTi5aaUt1eWNUeDY2QXRlYy53OUY4VlpVdzVqVG52dEJt"
+      },
+      {
+        "username": "vic",
+        "password": "JDJiJDEyJFVZTHFrN2xDd1hrVDhsUko0N0lhSWVUb1pOelhqeUw0WFhNT3p5RkMycTJtZ2Q2WDcvWDg2"
+      }
+    ]
+  }
+}

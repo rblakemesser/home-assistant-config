@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Pride Rock Rawr",
+          "badges": [],
+          "cards": [
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_home",
+              "show_forecast": false
+            },
+            {
+              "square": false,
+              "type": "grid",
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "lock.front_door",
+                      "name": "Lock"
+                    },
+                    {
+                      "entity": "sensor.front_door_battery",
+                      "name": "Battery"
+                    }
+                  ],
+                  "title": "Front Door"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "lock.powder_room_door",
+                  "name": "Door"
+                },
+                {
+                  "entity": "sensor.powder_room_door_battery"
+                }
+              ],
+              "title": "Powder Room"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "switch.projector"
+              ]
+            },
+            {
+              "type": "entities",
+              "show_header_toggle": false,
+              "entities": [
+                {
+                  "type": "button",
+                  "name": "Open Screen",
+                  "tap_action": {
+                    "action": "call-service",
+                    "service": "rest_command.open_screen"
+                  }
+                },
+                {
+                  "type": "button",
+                  "name": "Close Screen",
+                  "tap_action": {
+                    "action": "call-service",
+                    "service": "rest_command.close_screen"
+                  }
+                }
+              ],
+              "title": "Projector Screen"
+            },
+            {
+              "type": "light",
+              "entity": "light.downstairs_lights"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "cover.shade_1",
+                "cover.shade_2",
+                "cover.shade_3",
+                "cover.shade_4",
+                "cover.shade_5"
+              ]
+            },
+            {
+              "show_state": true,
+              "show_name": true,
+              "camera_view": "auto",
+              "type": "picture-entity",
+              "entity": "camera.192_168_50_10"
+            },
+            {
+              "camera_view": "live",
+              "type": "area",
+              "area": "back_yard",
+              "show_camera": true
+            },
+            {
+              "camera_view": "live",
+              "type": "area",
+              "area": "front_door",
+              "show_camera": true
+            },
+            {
+              "camera_view": "live",
+              "type": "area",
+              "area": "patio",
+              "show_camera": true
+            },
+            {
+              "camera_view": "live",
+              "type": "area",
+              "area": "side_door",
+              "show_camera": true
+            },
+            {
+              "camera_view": "live",
+              "type": "area",
+              "area": "carport",
+              "show_camera": true
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.kitchen_speaker"
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "media-control",
+                  "entity": "media_player.balcony"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.living_room"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.main_bedroom"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.office"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.patio"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.onkyo_tx_nr696_621fad"
+                }
+              ]
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.living_room_2"
+            },
+            {
+              "type": "light",
+              "entity": "light.entry_front_porch"
+            }
+          ],
+          "type": "masonry",
+          "icon": "mdi:home"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "blake_messer",
+        "name": "Blake Messer",
+        "user_id": "eae3b88b88f844599bdc3f4c09b93b59",
+        "device_trackers": [
+          "device_tracker.blake_s_phone",
+          "device_tracker.rodgers_iphone"
+        ],
+        "picture": "/api/image/serve/77cbe1218e06f69adb9aa94860f03961/512x512"
+      },
+      {
+        "id": "kendra",
+        "name": "Kendra",
+        "device_trackers": [
+          "device_tracker.kendra_s_phone"
+        ],
+        "user_id": "d4f27212db254234af24107aa4c79add",
+        "picture": "/api/image/serve/b659272cbe875a87857389baa52a6d4f/512x512"
+      },
+      {
+        "id": "craigo",
+        "name": "Craigo",
+        "device_trackers": [],
+        "user_id": "dab278f4165342eaa9969c96c6cb4cf7",
+        "picture": "/api/image/serve/a8a1432f14ea955aea150c6ef24f5178/512x512"
+      },
+      {
+        "id": "rodgerm",
+        "name": "Rodgermesser",
+        "device_trackers": [
+          "device_tracker.rodgers_iphone_2",
+          "device_tracker.rodgers_ipad"
+        ],
+        "user_id": "3714d6817c884decb2d1752f119d16c5",
+        "picture": "/api/image/serve/7e426a945c0e03e64e369a71faef70b0/512x512"
+      },
+      {
+        "id": "mila",
+        "name": "Mila",
+        "device_trackers": [
+          "device_tracker.iphone_de_milagros"
+        ],
+        "user_id": "be6b90941e5944ae9593e2979ac10de2",
+        "picture": "/api/image/serve/359087fd4f5b2d81fa4e4c0362fce65a/512x512"
+      },
+      {
+        "id": "yaya",
+        "name": "Yaya",
+        "device_trackers": [
+          "device_tracker.iphone_2"
+        ],
+        "user_id": "252d0a626a0e4b11af2d4521ce3ef073",
+        "picture": "/api/image/serve/af81f353ed156d6e6816f03052bb391f/512x512"
+      },
+      {
+        "id": "agos",
+        "name": "Agos",
+        "device_trackers": [
+          "device_tracker.iphone_50"
+        ],
+        "user_id": "729c7fde6d444a238f243aa267fdef0c",
+        "picture": null
+      },
+      {
+        "id": "vic",
+        "name": "Vic",
+        "device_trackers": [
+          "device_tracker.vics_iphone"
+        ],
+        "user_id": "b12bf1d3fbbf4ce5987477c8945a8fd7",
+        "picture": "/api/image/serve/7a0666a6d1f3c289ef50868a3a3a6bfa/512x512"
+      }
+    ]
+  }
+}

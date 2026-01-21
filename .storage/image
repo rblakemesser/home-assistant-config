@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "image",
+  "data": {
+    "items": [
+      {
+        "id": "b659272cbe875a87857389baa52a6d4f",
+        "filesize": 513605,
+        "content_type": "image/jpeg",
+        "name": "PXL_20231015_000616658.jpg",
+        "uploaded_at": "2024-01-30T22:28:31.443084+00:00"
+      },
+      {
+        "id": "77cbe1218e06f69adb9aa94860f03961",
+        "filesize": 237481,
+        "content_type": "image/jpeg",
+        "name": "PXL_20220302_032609548.MP.jpg",
+        "uploaded_at": "2024-01-30T22:29:37.027039+00:00"
+      },
+      {
+        "id": "a8a1432f14ea955aea150c6ef24f5178",
+        "filesize": 64193,
+        "content_type": "image/jpeg",
+        "name": "craigo.jpg",
+        "uploaded_at": "2024-02-09T02:58:50.088971+00:00"
+      },
+      {
+        "id": "ebb164965d6d707387fe8bd1d20b605f",
+        "filesize": 296633,
+        "content_type": "image/jpeg",
+        "name": "1000008585.jpg",
+        "uploaded_at": "2024-04-05T16:01:43.181780+00:00"
+      },
+      {
+        "id": "3775d9a411337fc019cfd736d0c615f3",
+        "filesize": 296522,
+        "content_type": "image/jpeg",
+        "name": "1000008585.jpg",
+        "uploaded_at": "2024-04-05T16:02:36.893843+00:00"
+      },
+      {
+        "id": "bcd63e9eca53e52e6477c539abf57be9",
+        "filesize": 300385,
+        "content_type": "image/jpeg",
+        "name": "1000008585.jpg",
+        "uploaded_at": "2024-04-05T16:03:25.606304+00:00"
+      },
+      {
+        "id": "7e426a945c0e03e64e369a71faef70b0",
+        "filesize": 301346,
+        "content_type": "image/jpeg",
+        "name": "1000008585.jpg",
+        "uploaded_at": "2024-04-05T16:06:14.868637+00:00"
+      },
+      {
+        "id": "359087fd4f5b2d81fa4e4c0362fce65a",
+        "filesize": 277369,
+        "content_type": "image/jpeg",
+        "name": "1000015030.jpg",
+        "uploaded_at": "2024-12-16T17:13:17.725942+00:00"
+      },
+      {
+        "id": "af81f353ed156d6e6816f03052bb391f",
+        "filesize": 320887,
+        "content_type": "image/jpeg",
+        "name": "PXL_20240804_173658678.MP.jpg",
+        "uploaded_at": "2024-12-16T17:16:18.055757+00:00"
+      },
+      {
+        "id": "7a0666a6d1f3c289ef50868a3a3a6bfa",
+        "filesize": 23116,
+        "content_type": "image/jpeg",
+        "name": "3da85ac9-f63d-41a3-93d0-e4d927c6281a.jpeg",
+        "uploaded_at": "2025-11-23T00:13:13.946154+00:00"
+      }
+    ]
+  }
+}

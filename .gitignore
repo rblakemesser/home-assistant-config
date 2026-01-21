@@ -15,8 +15,6 @@ deps/
 *.tar.gz
 *.zip
 *.bak
-# UI-generated storage (optional; comment out if you want to track it)
-.storage/
 # Secrets (optional if you use secrets.yaml)
 secrets.yaml
 # Temp / locks
