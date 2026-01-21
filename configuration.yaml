@@ -1,0 +1,24 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+rest_command:
+  close_screen:
+    url: "http://192.168.68.67/troy.cgi?cmd=49&str1=030F000100000C8D0D010000000000"
+    method: get
+
+  open_screen:
+    url: "http://192.168.68.67/troy.cgi?cmd=49&str1=030F000100000C8D0D000000000000"
+    method: get
+
+switch:
+  - platform: sony_projector
+    host: "192.168.68.64"
+    name: "Projector"

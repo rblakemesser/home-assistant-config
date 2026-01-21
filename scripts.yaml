@@ -1,0 +1,7 @@
+movies_on:
+  sequence:
+  - action: rest_command.open_screen
+    metadata: {}
+    data: {}
+  alias: Movies on
+  description: ''

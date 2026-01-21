@@ -1,0 +1,36 @@
+- id: '1706758854564'
+  alias: Lock powder room door at night
+  description: If the powder room door is unlocked at night, lock it.
+  trigger:
+  - platform: time
+    at: '23:00:00'
+  condition:
+  - condition: device
+    device_id: b944548ea81f84413e1fa4764d2953c8
+    domain: lock
+    entity_id: 1f62e0208381a22384b06a7b57aaf310
+    type: is_unlocked
+  action:
+  - device_id: b944548ea81f84413e1fa4764d2953c8
+    domain: lock
+    entity_id: 1f62e0208381a22384b06a7b57aaf310
+    type: lock
+  mode: single
+- id: '1706759097079'
+  alias: Lock the front door at night
+  description: If the front door is unlocked late at night, lock it
+  trigger:
+  - platform: time
+    at: '23:00:00'
+  condition:
+  - condition: device
+    device_id: 920128c2f522996e8daa615b09146a9a
+    domain: lock
+    entity_id: 2a5b66cb68aa45d052767f450d272951
+    type: is_unlocked
+  action:
+  - device_id: 920128c2f522996e8daa615b09146a9a
+    domain: lock
+    entity_id: 2a5b66cb68aa45d052767f450d272951
+    type: lock
+  mode: single
