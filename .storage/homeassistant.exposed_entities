@@ -1,432 +1,8 @@
 {
-  "version": 1,
-  "minor_version": 1,
-  "key": "homeassistant.exposed_entities",
   "data": {
     "assistants": {},
     "exposed_entities": {
-      "sun.sun": {
-        "assistants": {
-          "conversation": {
-            "should_expose": false
-          }
-        }
-      },
-      "zone.home": {
-        "assistants": {
-          "conversation": {
-            "should_expose": false
-          }
-        }
-      },
-      "camera.theleoshow": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "switch.projector": {
-        "assistants": {
-          "conversation": {
-            "should_expose": true
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "person.rodger": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_battery_level": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_battery_state": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_bssid": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_ssid": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_storage": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_connection_type": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_geocoded_location": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_sim_2": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_last_update_trigger": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_sim_1": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_activity": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_distance": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_floors_ascended": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_floors_descended": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_steps": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_iphone_2_average_active_pace": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.rodgers_iphone_2_focus": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_battery_level": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_battery_state": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_ssid": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_storage": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_bssid": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_connection_type": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_sim_1": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_geocoded_location": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_last_update_trigger": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.rodgers_ipad_activity": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.rodgers_ipad_focus": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "conversation.home_assistant": {
-        "assistants": {
-          "conversation": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_detected_activity": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_sleep_confidence": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_sleep_segment": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
       "binary_sensor.blake_s_phone_android_auto": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_os_version": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_security_patch": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_current_version": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_app_rx_gb": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_app_tx_gb": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_app_memory": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -446,7 +22,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_app_standby_bucket": {
+      "binary_sensor.blake_s_phone_bluetooth_state": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -456,7 +32,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_app_importance": {
+      "binary_sensor.blake_s_phone_device_locked": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -466,7 +42,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_ringer_mode": {
+      "binary_sensor.blake_s_phone_device_secure": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -476,7 +52,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_audio_mode": {
+      "binary_sensor.blake_s_phone_doze_mode": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -496,7 +72,7 @@
           }
         }
       },
-      "binary_sensor.blake_s_phone_mic_muted": {
+      "binary_sensor.blake_s_phone_high_accuracy_mode": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -506,7 +82,7 @@
           }
         }
       },
-      "binary_sensor.blake_s_phone_speakerphone": {
+      "binary_sensor.blake_s_phone_hotspot_state": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -516,97 +92,7 @@
           }
         }
       },
-      "binary_sensor.blake_s_phone_music_active": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_volume_level_alarm": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_volume_level_call": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_volume_level_music": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_volume_level_ringer": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_volume_level_notification": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_volume_level_system": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_volume_level_dtmf": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_volume_level_accessibility": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_battery_state": {
+      "binary_sensor.blake_s_phone_interactive": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -626,7 +112,224 @@
           }
         }
       },
-      "sensor.blake_s_phone_charger_type": {
+      "binary_sensor.blake_s_phone_keyguard_locked": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_keyguard_secure": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_mic_muted": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_mobile_data": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_mobile_data_roaming": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_music_active": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_nfc_state": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_power_save": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_speakerphone": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_wifi_state": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.blake_s_phone_work_profile": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.rodgers_ipad_focus": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.rodgers_iphone_2_focus": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "conversation.home_assistant": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "person.rodger": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_accent_color": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_active_notification_count": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_app_importance": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_app_memory": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_app_rx_gb": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_app_standby_bucket": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_app_tx_gb": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_audio_mode": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -646,7 +349,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_battery_temperature": {
+      "sensor.blake_s_phone_battery_level": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -666,7 +369,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_bluetooth_connection": {
+      "sensor.blake_s_phone_battery_state": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -676,17 +379,7 @@
           }
         }
       },
-      "binary_sensor.blake_s_phone_bluetooth_state": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_ble_transmitter": {
+      "sensor.blake_s_phone_battery_temperature": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -706,7 +399,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_car_battery": {
+      "sensor.blake_s_phone_ble_transmitter": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -716,7 +409,17 @@
           }
         }
       },
-      "sensor.blake_s_phone_car_name": {
+      "sensor.blake_s_phone_bluetooth_connection": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_car_battery": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -766,6 +469,16 @@
           }
         }
       },
+      "sensor.blake_s_phone_car_name": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
       "sensor.blake_s_phone_car_odometer": {
         "assistants": {
           "cloud.alexa": {
@@ -776,7 +489,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_screen_brightness": {
+      "sensor.blake_s_phone_charger_type": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -786,7 +499,27 @@
           }
         }
       },
-      "sensor.blake_s_phone_screen_off_timeout": {
+      "sensor.blake_s_phone_current_time_zone": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_current_version": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_detected_activity": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -806,17 +539,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_accent_color": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_work_profile": {
+      "sensor.blake_s_phone_external_storage": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -836,367 +559,7 @@
           }
         }
       },
-      "binary_sensor.blake_s_phone_device_locked": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_device_secure": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_keyguard_locked": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_keyguard_secure": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_last_used_app": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_last_reboot": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_last_update_trigger": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_light_sensor": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_high_accuracy_mode": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
       "sensor.blake_s_phone_high_accuracy_update_interval": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_mobile_data": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_mobile_data_roaming": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_wifi_connection": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_wifi_bssid": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_wifi_ip_address": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_wifi_link_speed": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_wifi_state": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_wifi_frequency": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_wifi_signal_strength": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_public_ip_address": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_hotspot_state": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_network_type": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_nfc_state": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_next_alarm": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_last_notification": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_last_removed_notification": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_active_notification_count": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_media_session": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_phone_state": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_sim_1": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_sim_2": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_interactive": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_doze_mode": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "binary_sensor.blake_s_phone_power_save": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_pressure_sensor": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_proximity_sensor": {
-        "assistants": {
-          "cloud.alexa": {
-            "should_expose": false
-          },
-          "cloud.google_assistant": {
-            "should_expose": false
-          }
-        }
-      },
-      "sensor.blake_s_phone_steps_sensor": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -1216,7 +579,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_external_storage": {
+      "sensor.blake_s_phone_ipv6_addresses": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -1226,7 +589,67 @@
           }
         }
       },
-      "sensor.blake_s_phone_current_time_zone": {
+      "sensor.blake_s_phone_last_notification": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_last_reboot": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_last_removed_notification": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_last_update_trigger": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_last_used_app": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_light_sensor": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_media_session": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -1256,6 +679,166 @@
           }
         }
       },
+      "sensor.blake_s_phone_network_type": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_next_alarm": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_os_version": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_phone_state": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_pressure_sensor": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_proximity_sensor": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_public_ip_address": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_ringer_mode": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_screen_brightness": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_screen_off_timeout": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_security_patch": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_sim_1": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_sim_2": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_sleep_confidence": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_sleep_segment": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_steps_sensor": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
       "sensor.blake_s_phone_total_rx_gb": {
         "assistants": {
           "cloud.alexa": {
@@ -1276,7 +859,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_ipv6_addresses": {
+      "sensor.blake_s_phone_volume_level_accessibility": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -1286,7 +869,7 @@
           }
         }
       },
-      "sensor.blake_s_phone_battery_level": {
+      "sensor.blake_s_phone_volume_level_alarm": {
         "assistants": {
           "cloud.alexa": {
             "should_expose": false
@@ -1295,7 +878,414 @@
             "should_expose": false
           }
         }
+      },
+      "sensor.blake_s_phone_volume_level_call": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_volume_level_dtmf": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_volume_level_music": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_volume_level_notification": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_volume_level_ringer": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_volume_level_system": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_wifi_bssid": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_wifi_connection": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_wifi_frequency": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_wifi_ip_address": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_wifi_link_speed": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.blake_s_phone_wifi_signal_strength": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_activity": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_battery_level": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_battery_state": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_bssid": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_connection_type": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_geocoded_location": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_last_update_trigger": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_sim_1": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_ssid": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_ipad_storage": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_activity": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_average_active_pace": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_battery_level": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_battery_state": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_bssid": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_connection_type": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_distance": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_floors_ascended": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_floors_descended": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_geocoded_location": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_last_update_trigger": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_sim_1": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_sim_2": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_ssid": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_steps": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.rodgers_iphone_2_storage": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sun.sun": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "switch.projector": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "conversation": {
+            "should_expose": true
+          }
+        }
+      },
+      "zone.home": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
       }
     }
-  }
+  },
+  "key": "homeassistant.exposed_entities",
+  "minor_version": 1,
+  "version": 1
 }
